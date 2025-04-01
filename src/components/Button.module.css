@@ -1,0 +1,34 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 3.25rem;
+  padding: 1rem;
+
+  font: var(--font-medium-regular);
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  
+  border-radius: 8px;
+  gap: 0.5rem;
+
+  line-height: 140%;
+  font-weight: bold;
+  font-size: 0.875rem;
+
+  transition: 0.2s;
+}
+
+.container:hover {
+  background-color: var(--blue);
+}
+
+@media (max-width: 430px) {
+  .container {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
