@@ -42,7 +42,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/seu-usuario/nome-do-repositorio.git
+$ git clone https://github.com/BrushColor/desafio-to-do-ReactJS
 
 # Acesse a pasta do projeto
 $ cd nome-do-repositorio
